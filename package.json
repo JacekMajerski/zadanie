@@ -16,6 +16,7 @@
     "vue2-datepicker": "^3.11.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.52.0",
     "@vue/cli-plugin-babel": "^4.5.13",
     "@vue/cli-plugin-eslint": "^4.5.13",
     "@vue/cli-service": "^4.5.13",
@@ -24,12 +25,28 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",
+    "playwright": "^1.52.0",
     "prettier": "^2.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "Clone the repository",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparingsoftware/qa-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sparingsoftware/qa-form/issues"
+  },
+  "homepage": "https://github.com/sparingsoftware/qa-form#readme"
 }
